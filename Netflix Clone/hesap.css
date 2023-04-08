@@ -1,0 +1,21 @@
+body,html {
+    color: black;
+    background-color: beige;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    margin-top: 100px;
+}
+.accordion, .panel {
+    background-color: rgba(34, 34, 34, 0);
+    color: black;
+}
+.footer{
+    background-color: black;
+    color: rgb(192, 192, 192);
+}

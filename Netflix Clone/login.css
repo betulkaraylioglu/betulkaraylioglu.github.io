@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    height: 150vh;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3)) , url(./img/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-left: 0px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    width: 100%;
+}
+.form-box{
+    position: relative;
+    width: 500px;
+    height: 700px;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8));
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.oturum{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.input{
+    background-color: rgb(37, 37, 37);
+    width: 350px;
+    height: 50px;
+    font-size: large;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+}
+.yardim{
+    margin-left: 110px;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8));
+}
+.row{
+    display: flex;
+}
+.head{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+.container-h{
+    margin-left: 30px;
+}

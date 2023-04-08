@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+.navbar-expand-lg{
+    background:linear-gradient(rgba(0, 0, 0, .9),rgba(0, 0, 0, .9));
+    
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.div{
+    display: flex;
+    overflow: scroll;
+}
+.div::-webkit-scrollbar{
+    display: none;
+}
+a:link{
+    text-decoration: none;
+}
+.baslik{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.footer{
+    color: white;
+}
+a:link:hover{
+    text-decoration: underline;
+}
+.bilgi{
+    justify-content: center;
+    text-align: center;
+    color: white;
+}

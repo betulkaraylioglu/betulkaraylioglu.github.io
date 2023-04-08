@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="anasayfa.css">
+</head>
+<body>
+    <!-- NAVBAR BAŞLANGIÇ -->
+    <nav class="navbar navbar-expand-lg bg-black fixed-top navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./img/nlogo.png" width="200" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Diziler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Filmler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Yeni ve popüler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Listem</a>
+              </li>
+            </ul>
+            <div class="collapse navbar-collapse d-flex justify-content-left" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown" style="margin-right: 100px;">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./img/suy.jpeg" width="30px">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Profil Yönetimi</a></li>
+                      <li>
+                          <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="hesap.html">Hesap</a></li>
+                      <li><a class="dropdown-item" href="#">Yardım Merkezi</a></li>
+                      <li><a class="dropdown-item" href="#">Netflix oturumunu kapat</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+    </nav>
+    <!-- NAVBAR BİTİŞ -->
+    <br><br><br><br><br><br><br>
+      <div>
+        <div class="text">
+          <div>
+            <h1 style="font-size: 65px; font-family:Arial, Helvetica, sans-serif;">Yalnızca Netflix'te</h1>
+            <h4 style="font-size: 15px;">Başka yerde bulamayacağınız muhteşem ve orijinal içerikler Netflix'te. Filmler, diziler ve çok daha fazlası... </h4>
+            <p>Tercihlerinize göre şekillenen bir kullanıcı deneyimi ile hizmetinizde.</p>
+          </div>
+          <div>
+            <button class="btn btn-lg mt-3" style="background-color: red;color: white;">Oynat</button>
+            <button class="btn btn-lg mt-3" style="background-color: red;color: white;">Daha Fazla Bilgi</button>
+          </div>
+        </div>
+      </div>
+    <br><br><br>
+    <!-- SLİDER BAŞLANGIÇ -->
+    <section>
+      <div class="container">
+        <h3 class="text-light">Netflix'te Popüler</h3>
+          <div class="div">
+            <div id="alt-div">
+                <a href="#">
+                    <img src="./img/film1.jpeg" class="w-120" alt="">
+                    <p class="baslik">The Night Agent</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="./img/film2.jpeg" class="w-120" alt="">
+                    <p class="baslik">Wednesday</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="./img/film3.jpeg" class="w-120" alt="">
+                    <p class="baslik">Murder Mystery 2</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="./img/film4.jpeg" class="w-120" alt="">
+                    <p class="baslik">Lucifer</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="./img/film5.jpeg" class="w-120" alt="">
+                    <p class="baslik">Kill Boksoon</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="./img/film6.jpeg" class="w-120" alt="">
+                    <p class="baslik">Erşan Kuneri</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="./img/film7.jpeg" class="w-120" alt="">
+                    <p class="baslik">Biz Kimden Kaçıyorduk Anne?</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="./img/film8.jpeg" class="w-120" alt="">
+                    <p class="baslik">La case de papel</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="./img/film9.jpeg" class="w-120" alt="">
+                    <p class="baslik">Peaky Blinders</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="./img/film10.jpeg" class="w-120" alt="">
+                    <p class="baslik">Gölge ve Kemik</p>
+                </a>
+            </div>
+          </div>
+      </div>
+      <div class="container">
+        <h3 class="text-light">Kore Dramaları</h3>
+          <div class="div">
+            <div id="alt-div">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABd8gtRsXV-WOWv27XnvtmqMcGtWPSO60tVAOOdEQo72zfeXVAuP7vUhDkHab0H1u8XBtfieMosw_QL9p30n_DwsUOp7uGIovwEOmibTEw4d7shm33PLUp8Ku4VgB6OVpVj41X9cbPqWs08I0VLrWs4RH-tiqbL8pIeVcVYMtv2HfZHPmsrnZc8QVzYrVM0N48fYBTAuC4PBVgd6-HuLGXawA0Nye1S5_JF7yLDfTiOGXhbiDUe6FK7wx8QCUl0OzWiaRVe0zzjdsZlr_GVJP1uooqBbGUE4ha6RlDa7PmJq0vOuWsO76hZcpkw.jpg?r=3d2" class="w-120" alt="">
+                    <p class="baslik">The Glory</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdDXZr6XqwbjKNL6qa8KXrt1xi3nkMPojmoS_J08yZ6i5nbxjdOn4B4Cej3qH9n-a0Nbj3UcWGPscOXf1P5xAsrZpcDGt1rtNAL6SgYmdzMuAKZbqQc4Wu4nYqPOn0hsrnlV.jpg?r=141" class="w-120" alt="">
+                    <p class="baslik">Extraordinary Attorney Woo</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWMjrfSkaC7NIyVI3FGIr7VE-L9Naq8n0K01B-cHQNLQAFi9WFH_zI9Oe8J3TPrMbO75WfnxkVkDCY6FnYrNW3M37H2PBYaYhS31cIkn4mD26ht77aJYRewz390opbcuUB31.jpg?r=3f7" class="w-120" alt="">
+                    <p class="baslik">A Korean Odyssey</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSLpQ8-1OzckZ2YyUCTd7GBR5Wn6Pc0wm5kgzH12y7xVM0ko4KV9PppM42fAKbV-FQxIGMXIQ6VHE-5RZPDgssNhcLBZtsRR0ZbvWjopbxJLyih4V7akQtIMF0cQNL5HTw5a.jpg?r=5ad" class="w-120" alt="">
+                    <p class="baslik">It's Okay to Not Be Okay</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQTG6_3t9SHh75SUKJ7JS7KGp1hd9wL99tsPhSo3HZ4gEtxZkNuCRFo6Q_vQ991xRqbYhraV--oABro3Lf4L3J2M6MZG_4oU3_MdbXXMYYPndEpsEWYn2A89T25bg-WqEb2j.jpg?r=d40" class="w-120" alt="">
+                    <p class="baslik">All of Us Are Dead</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRXQQb15kkk_idh6v2usOE9hUT7CrBLoXBA_Qayd3sFqd4y0_A6x9OrRlyBmjwpmkB8o7tvA2TzyBFITjjSbIJl4KqsQovpjhz35UTnfmoLlYogDIGfIP0Aj0xQtmzCq64Mg.jpg?r=fbf" class="w-120" alt="">
+                    <p class="baslik">Hometown Cha-Cha-Cha</p>
+                </a>
+            </div>
+            <div id="alt-div">
+                <a href="#" style="margin-left: 15px;">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTI7v1mf2fyZ4CIELhvtP0X0AZg7j2z_kqsGHrYY7-BYGDsCNnWRNmkUWOGmbCX3_R46kOqRYfar3KzhNjKJQuZWAKS1Nx4yGx7_PMhFvPzfynY68fPQS29hYd0vLVvNiDDj.jpg?r=af1" class="w-120" alt="">
+                    <p class="baslik">Şeytan Avcısı</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABW68Up0_D-lKI00pWbx0y-Gy7-8h4Di_1o2D1n0GA9IEEy4ivnwCmFStQY5Zw_-WHyLvUUoat0x8rA8xAF-WuIbWPYZZF3b9qLmDOFjEDdo-Ln0H8ll44deX4Yhha3QLxsk4TkXoPU_21eeOfUEuVaSLKZCWH-JMMEYoNxl27GsRtnfgv_wKoAh84oF7yTElPtp2Hl-LYXbcHNLHL2xYCIor-LOrxZdrJGhoaQ17sN2mcTpGpFxpurFsKk_ssZldTEhiIdFlOkHawZ1UCoLRIKBMTEW1BMTBV9yJOwOOfdHw8DySRtnJorvk4-VLg96L2IOy0NPryEP4HzZb880k7aD4Ja03vA_RJsl0MdjJ2sE9ZEH9GDwUGgdFs7darvkX_uuQZ7uhKxI7ZrO619LVkMHG2hywHBysienN6pwNeCs6Gk0lrHJrbqhSONeTG4wa5HuJTsTBkxMNeQ.jpg?r=2da" class="w-120" alt="">
+                    <p class="baslik">Crash Course in Romance</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeiVeBryesudazzeNygSq1P0y8c1CWiXCudaz-njRnXdLYQ4fxB8UI7h8RLkQRz6VVqv0Ll3XglYl6YVZwayjwdv-QYFz3AJ2fEmStxJ1aoHeJ9OXYasy5jf_ZysIQ1JqK0_.jpg?r=d53" class="w-120" alt="">
+                    <p class="baslik">Abyss</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUlCTulBgK3kFEVvsJv2wzCs5NWP3jYOGiZ_13_OKwXqIrHXj2YvSwuggNazJ4V5W8J5ybMucWeVKfmjmJUu2rJ1lrVHVYliG8iVF1_qGopghlWKccURc9zwc-dRcQFG9QAG.jpg?r=61b" class="w-120" alt="">
+                    <p class="baslik">Little Women</p>
+                </a>
+            </div>
+          </div>
+      </div>
+      <div class="container">
+        <h3 class="text-light">Aksiyon Filmleri</h3>
+          <div class="div">
+            <div id="alt-div">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdgOnADESnAO-DzTv0vPYV043iVxjhKp79DDgkqfy4x8KT4m8TmUoeLo-dMeIBGKeWU7KfKnR-JED7CkkRBcJP8AjSGdRC01LG6cvpxsksuE3z24oVAbKkv0FW7ciBCxjcdS.jpg?r=380" class="w-120" alt="">
+                    <p class="baslik">Esrarengiz Canavar</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVSmb0ZPtlKKPvIlVmRrXBXCE1yguoPnTiNaCYgD0G2FPlwP0JDrOzIExODO9AZmx23IcYbTucf2CzxBIghf5zEUhBn0ensNQ8kNXl7tTHpOYhrp8oD5ovrZ2eQfjJNLYf06.jpg?r=ab5" class="w-120" alt="">
+                    <p class="baslik">Zoraki İkili</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQWIgBO_EFhOKrvusmvJ65y8sI24OEmAMpeLrnGtbfX4WasnUl3oPS1Q4Lu2ttWYw5O4WeAWN-kko_WW1qeF3PR-y-OWn3Dg7oQ4wGuVYaNMksrS439WmckoepQLc_IfaqrF.jpg?r=347" class="w-120" alt="">
+                    <p class="baslik">Red Notice</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQBbr5yGXRrd2YkUXe5l44ISeBW8jDnCW43ITxkgMv5yNeuG_nd-IkLw6gaXENoKwXAAPr2la9Adx45oMOOaIb0MKY4YSu3mdwZtFg5-5HOI5ceDJMt-skPQAGCJG6MhmSAB.jpg?r=85d" class="w-120" alt="">
+                    <p class="baslik">Mogli: Orman Çocuğu</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXiIQpsgBiHUtoD_s8H3QHqVOBdUWqDncz3BRrmAiEDytZc8umBIi-k6_dbq14HHq7IWkuDBYwaXMd6GIv18ZBf0UsqZ-Q0lCutNDHBKT7042SX2AlLNBVrDzHKMZinttxRU.jpg?r=a14" class="w-120" alt="">
+                    <p class="baslik">Benim Adım İntikam</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcXNeglziEjvwtE0poa-MMg0LlDwtRt3HeeeT4dxzvGs9SppuyVSJS7vQgzSq3Ip72kUhUIXm-_tS4lsziMell7G77PgCPCqLvq3lv-bH7MURpEpovtFfCD8yStqt8v1-06b.jpg?r=9e6" class="w-120" alt="">
+                    <p class="baslik">Murder Mystery</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdzOeOqPEk1M_DWfMF64utFLlsrEMLTsiViL_B4cVd1PuKFzMNbkkathcJBDLghK2pIeAanGHGL_X5pgpNZDnCQPlbK9mVM8UFdjutj-fHXxQASUlsEWhvy25GXqlXGZVz_3.jpg?r=fb8" class="w-120" alt="">
+                    <p class="baslik">The Gray Man</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABR9NXf36rp5RAO3D9-tVSPd3FTpebPGtedVo8oBvST_T_a7FyAScLrxfBOuZNhWrtUs9ux6vVGL55VnXjE1mfybrEf_ifxkdHXal6YAc3KRWJ1Qz_kyX1LFnQxiizKb8RR-8.jpg?r=c6c" class="w-120" alt="">
+                    <p class="baslik">Interceptor</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdctoEFX1_1suDf2RzpHCCePWkcfzirNWyTV1mNrflCIZqtVhbdoWl7hMOJvw7EVn2iYkykrISSkpx1A8pebnw1Kmcu9Ks9f_uPnPfdU4VoCdjBULE51_W4MaTvA7moTplos.jpg?r=6ac" class="w-120" alt="">
+                    <p class="baslik">Lost Bullet 2</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfNHj91muJFh8mIMCpj5qNBh7kvhmytGYRkYnFWqUHb-hUiMN7nGMWw1EU_xXvF1AbBSO4vnfb72D1t2jAUSBMjghcKo4gC9piXeZQJtztJjcPABbxzAPdaj2nrx7zsk8avg.jpg?r=074" class="w-120" alt="">
+                    <p class="baslik">6 Underground</p>
+                </a>
+            </div>
+          </div>
+      </div>
+      <div class="container">
+        <h3 class="text-light">Eleştirmenlerden Tam Not Alan Diziler</h3>
+          <div class="div">
+            <div id="alt-div">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSNtJvu8215Gl8GlVv_EEDFMgltlMgvQGUb_8wpfUL6BKCLHa5PYQcZZVizJJhcTCUsy4ST5mhGNGGffm-MYgGgdgvIGJf_OvT0IPUEke88IaN7ireJ4uV_BVLjVTXbwlfo1.jpg?r=c68" class="w-120" alt="">
+                    <p class="baslik">Stranger Things</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTtfuTyhsx3tFg2XdFgiME3ZoIgzeJSPtkVVAgf_IsXvgSVykoXqlpIRG9qLQxverfkMsdBx4907sytfNQBEdxMnMr-zks4zIUnj5LQMNHzj0n2XzxF_gRMvt1cvRJCXXY-j.jpg?r=c9f" class="w-120" alt="">
+                    <p class="baslik">La case de papel</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABe8-Z7RPWal9DdYty8m2HtV3PoiLGTWZ2To4P1VWbZPQRo8W1sclr_oziWcodgww4SKYW2QaIEBNgniy7FFuxRWG8fF-nPtqaT9qzja4nTq6v7eCn_hsSqgNyLXNSd9GuTH1.jpg?r=ff1" class="w-120" alt="">
+                    <p class="baslik">Narcos</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZemmrMaRP3BbvSmgKLTfo1M3yb8VgbYQQUgc3pn-Zgr4WoPJRLV4zr4Kyq6nXqGcaFbPaRcamPUw6isYOw-pDhDcnhh4crH5qlVp-eVbnQHxEGpfaH60OKmweG7cYjLz9am.jpg?r=853" class="w-120" alt="">
+                    <p class="baslik">Squid Game</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABe_W2OOOAaJoFLss63EfM5FPtm3HNFx7Q3pNdykUjoRGOr4V4vw-qJ0oOnMp9gTBKKiDgj1YgluUD4OwI_WCjZd1_w_H_Gb-BSi705yEGCWmEhneTHzfiiCbd8H0pedczBeG.jpg?r=7c1" class="w-120" alt="">
+                    <p class="baslik">The Last Kingdom</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABY_zxnDpt9-BYwP_08ytqZw-l8UKUcthtysaBvhY1YlEUtHys1sP6YLmP3NNKp_LeJZ2v0jML8nrAzizVjqMmjAxx4CyUaaXFNOTREUsoHXD-7mFRut-7BMi1KbZh2yGY9GR.jpg?r=79c" class="w-120" alt="">
+                    <p class="baslik">DAHMER</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcL5jLOTAi6HXLNlsRDzpf7v08IAzrUNZrAnCbLWgI9pl9--18vxOC0c1HUa-_juV6tdkUCyaNltNHvRw1cjSsoSE8fATn0ATFW2Q9vQltY6Ffnf2BlQhxpAB6wSaf7_9nLp.jpg?r=c0e" class="w-120" alt="">
+                    <p class="baslik">Peaky Blinders</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXEhXvgmSVXHVfW1SWEYMXHQSjC0NZRrseMsB3CpXw8u0ItYUcQjNGtaQOHJ25966MdNvfha9SXeNVbQh_kP5zaw87AbhTNSvTLnbUPuuHX9fMG-ZjcI--GuLqQPXLqFuMce.jpg?r=b30" class="w-120" alt="">
+                    <p class="baslik">Good Girls</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABV-KWE1LhUXPdh7wsZDRpK_yeQTD8DkTkypxEIOPnBHM1X2AJyuakedhjdzTVJx9EXlVcWr7itWISG-4s08cUuwj27trODTL-Zbm6_eDL2JVAa73WJKT74t_-mRTNk4Ao6th.jpg?r=7f0" class="w-120" alt="">
+                    <p class="baslik">Bodyguard</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfRWV3DU4RDpY_poy0SDMgj2dNfdvHh-W92WH1fRgyESphp9XiYvZ6VTcWXH0x0A7EnNB8ok6O5NXQDKGHIbvAAngELZEjnxQWClPO2ay-Lwv02fL6iozdir0PeZ7f6dkZ0H.jpg?r=592" class="w-120" alt="">
+                    <p class="baslik">The Witcher</p>
+                </a>
+            </div>
+          </div>
+      </div>
+      <div class="container">
+        <h3 class="text-light">Suç Temalı Diziler</h3>
+          <div class="div">
+            <div id="alt-div">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWgzCJVNmdMR8yVJ0nSA9MKUmwLz4lSoJodcZiwyg5Nux7i_AxRbxvRrHz7uprVcqOp2is3eRLvGY1uGUl8BBzAaWjkdeTkf6HzW8WNLZcTXwrFNh4mAae7rqtK2VEb_knBM.jpg?r=851" class="w-120" alt="">
+                    <p class="baslik">Vis a vis</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZeJPgVJdyIGM1egZ6fD9TYyLku9FkxUqvGJPTQZjohoRqFOG7WJJcaRMHibM99wofypbC6-bHBVXInlUuQXYYsE8Vm-SjL5X7iE0-f_gRE9JT95lVHYaM7TxvHZkzNGRP5W.jpg?r=1b3" class="w-120" alt="">
+                    <p class="baslik">El Chapo</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXEhXvgmSVXHVfW1SWEYMXHQSjC0NZRrseMsB3CpXw8u0ItYUcQjNGtaQOHJ25966MdNvfha9SXeNVbQh_kP5zaw87AbhTNSvTLnbUPuuHX9fMG-ZjcI--GuLqQPXLqFuMce.jpg?r=b30" class="w-120" alt="">
+                    <p class="baslik">Good Girls</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYPXI-ek7xbR4np_5HeBUgQfr2QFzbFTYcM-JHQ71BFWMC3wgpoRfj3N8u26PtCWG4kgA71UgLBXthLVgn2mCHa_7-BNdQW6YfOrbOy0F8OIyN-n3GJYcMHPW0lrQNjAwPqo.jpg?r=849" class="w-120" alt="">
+                    <p class="baslik">Designated Survivor</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcADWz1jsCLx1YUUYkAKKQsdGCb9Qc7iZjwvgRapud6Bnjns45BuCMxudNod3EwXnzJqA4VYel-uCLInuwbAJG_7Ywvldultu5xScEt1qzb6eiCim96pjBmRpUxqoo-VkTsC.jpg?r=baa" class="w-120" alt="">
+                    <p class="baslik">El recluso</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABV-KWE1LhUXPdh7wsZDRpK_yeQTD8DkTkypxEIOPnBHM1X2AJyuakedhjdzTVJx9EXlVcWr7itWISG-4s08cUuwj27trODTL-Zbm6_eDL2JVAa73WJKT74t_-mRTNk4Ao6th.jpg?r=7f0" class="w-120" alt="">
+                    <p class="baslik">Bodyguard</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVc-FJCDeAj_SoIOcuNUWI_MijfQPQkPcArjLLZgKYdFU3pk73MTgPSZBZqAR_qEtwtWKLu8f0hLvVfwQRyHGgrai4LI4e_kc6bSIsJqJeNmbQn1uGfX3yVBrPoaSSuZ2B8c.jpg?r=4b7" class="w-120" alt="">
+                    <p class="baslik">Lea'nın 7 Yaşamı</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWVpDiX_D8hbBNd9KjG_vlXVn5TKazHxOt3STEmjnk20-MKSXvjaFhK2UBf8bbd1DDvG4w9jYXGApyhnSpj9mwfi5OAv8cfvA9DAgg4YnO9AuUCPqi1Z3v9j4g_v5iT5Sj5U.jpg?r=2ad" class="w-120" alt="">
+                    <p class="baslik">Titans</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABY_zxnDpt9-BYwP_08ytqZw-l8UKUcthtysaBvhY1YlEUtHys1sP6YLmP3NNKp_LeJZ2v0jML8nrAzizVjqMmjAxx4CyUaaXFNOTREUsoHXD-7mFRut-7BMi1KbZh2yGY9GR.jpg?r=79c" class="w-120" alt="">
+                    <p class="baslik">DAHMER</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWl0JeMpEKnSA4ujLCIKoxf4EmtzTGXP97LsBMUkvBDJJ4sCsnArG3PHmxBp4B8fggtmTerz3fKfwCLEYg2iaSR_xh0dsuNy7ks8qH-531qTWtY-RcHdvKIhs_Wnni61hhLP.jpg?r=e90" class="w-120" alt="">
+                    <p class="baslik">Dark</p>
+                </a>
+            </div>
+          </div>
+      </div>
+      <div class="container">
+        <h3 class="text-light">Komedi Dizileri</h3>
+          <div class="div">
+            <div id="alt-div">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXk5Kie7BRxKksHjIbZs7Qk5a07YfwYQE5J4paPASY-lu2NVjmp5D_7-ckx-if96DX-YjVtiRSmtClsmoxb99aDb2_Uc4qQc45V5CoRhXbXxO98hBsjQyScRvp1cJBCnHE6E.jpg?r=e47" class="w-120" alt="">
+                    <p class="baslik">Man Vs Bee</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWFR8DUJn940KOb8AjfvVlpyExAnA-pdwcy_d95m9kSxg1ULutPLLHISOBDRYdHUR49IECWkDjNno8hqWgOmR9PdeDDrceqpywU_ABXwLf0yARPSs3eJldgazXuwqM52pg8-.jpg?r=0a2" class="w-120" alt="">
+                    <p class="baslik">Orange Is the New Black</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfgWRIvjjiBc8nUkCKq9Kzq7Ic6O-18phvePQVN_UBxuvCqp39W96ZTW7s6qQLijkS7Di2jL3K9pGxRenzp9NnTBIq5wty1uiG0_vZs0BN7rFgsrOtOOYiexz5HXiP98rOwE.jpg?r=1d3" class="w-120" alt="">
+                    <p class="baslik">Ginny & Georgia</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZSQbTEqHAk1TGtvf7tkTC-YdrOIco0eORXrGDvpYEXnODn90JVGvTBJOY-inJT6UYbPZvKLJMnN6JfQfPW9GDZ22MbJ6rIpliWBis8AUta9Mc3ZZ0ce3jOpLx2tcWqJ0Txl.jpg?r=b54" class="w-120" alt="">
+                    <p class="baslik">BoJack Horseman</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXe_4SOctaQUfgJwtVdJTowcNSREJvLG268MhY2NwZTD4BQiICqySHFSXEYglR1wWPkAbBtRjeTKzxW6nFWnVanFRg6DnAqQ7velPPK6uLOM8welhSaEKM43SDXPdfra5fgG.jpg?r=ca7" class="w-120" alt="">
+                    <p class="baslik">Disenchantment</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZuu-Bmy4u0R6uL71tNfFuYWMACWhP3h19Gy7Ztm9YbWy4FvShhAagqCy4jgm3vw8cG__vKdxSdDjBmLasJ4bajPnccQhlshi8pepHGSSUKA2SvnGMRBeBATfLrJ7o_yhhBI.jpg?r=de9" class="w-120" alt="">
+                    <p class="baslik">Workin' Moms</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcoZmRYWJC0xhqnH_agUPPxhIc5m8XqBpPe652qUMjG1bRSM68CVpmXVh7yXewPWv09WPoZbRCT9NQ6D8VirvpT94bYJndLHGDKCfOpWnLuRRcAOPhQUQxuCUUIFKV3oY805.jpg?r=923" class="w-120" alt="">
+                    <p class="baslik">Cobra Kai</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeprT3Al60UN8Zt6sjBjySLsoD_tZaSWwSVcJqqOYGg-KvHLlHDQb1Fw51q5OeJ6zhRuWvfg5WX9U5FPqnLnVQj0uQnf3O48nsHpHRLVHRSTP4E-W2QK4tUhtlHKz8tHUDSB.jpg?r=952" class="w-120" alt="">
+                    <p class="baslik">Insatiable</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTEmbT6Rsg1SpxlUY9NxyuTz0i_-y-WMQ65kqrOdOjRrtO0tCm6q2VdR7opKosjgiWgLYKEkkpf296fMghhyXRjZ55xrypzpCxMnV5_CJcXfRTqIRs_cmqzXL_uKTlSZLi_O.jpg?r=8b1" class="w-120" alt="">
+                    <p class="baslik">After Life</p>
+                </a>
+            </div>
+            <div id="alt-div" style="margin-left: 15px;">
+                <a href="#">
+                    <img src="https://occ-0-784-2773.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABS7SvpR9z-dN_r71S8-gERaEh19GUX97ONV-KE3uFhf8RF1gz5y3D2bnkwr9q16CCHL6QErY0vQlKUhAnZQTg6fWLbtj3g5TcY1oZd83EiY-fB2fTCFEX2isEIcaQ0HcPJKO.jpg?r=b58" class="w-120" alt="">
+                    <p class="baslik">Big Mouth</p>
+                </a>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- SLİDER BİTİŞ -->
+    <!-- SECTİON BAŞLANGIÇ -->
+    <section>
+        <div class="blur">
+            <img src="./img/blur.png" width="100%" style="filter: blur(8px);">
+        </div>
+        <br><br><br>
+        <div class="bilgi">
+            <span>
+                <p>İzleyecek daha pek çok şey var.</p>
+                <p>Netflix, uzun metrajlı filmler, belgeseller, diziler ve programlar, anime, ödüllü Netflix orijinal içerikleri ve daha fazlasından oluşan kapsamlı bir kütüphaneye sahiptir. İstediğiniz her zaman, istediğiniz kadar çok şey izleyin.</p>
+            </span>
+            <a href="#"><button class="btn btn-lg mt-3" style="width: 200px; background-color: red; color: white;">Şimdi Katıl</button></a>
+        </div>
+    </section>
+    <!-- SECTİON BİTİŞ -->
+    <br><br><br><br><br>
+    <!-- FOOTER BAŞLANGIÇ -->
+    <div class="container-fluid mt-2">
+        <footer class="row footer">
+            <p class="mt-5">Sorularınız mı var? Bizi arayın.</p>
+            <div class="col-lg-3 col-6">
+                <ul class="navbar-nav">
+                    <li class="nav-item mb-2"><a href="" class="nav-link">SSS</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Yatırımcı İlişkileri</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Kullanım Koşulları</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Bize Ulaşın</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-6">
+                <ul class="navbar-nav">
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Yardım Merkezi</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">İş imkanları</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Gizlilik</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Hız Testi</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-6">
+                <ul class="navbar-nav">
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Hesap</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Hediye Kartı Kullan</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Çerez Tercihleri</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Yasal Hükümler</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-6">
+                <ul class="navbar-nav">
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Medya Merkezi</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">İzleme Yolları</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Kurumsal Bilgiler</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link">Sadece Netflix'te</a></li>
+                </ul>
+            </div>
+        </footer>
+        <div class="row footer">
+            <div class="dropdown mb-4">
+                <a href="" class="btn text-white dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-globe"></i>
+                Türkçe
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a href="" class="dropdown-item">Türkçe</a></li>
+                <li><a href="" class="dropdown-item">İngilizce</a></li>
+            </ul>
+            </div>
+            <p class="p-footer">Netflix Türkiye</p>
+        </div>
+    </div>
+    <!-- FOOTER BİTİŞ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

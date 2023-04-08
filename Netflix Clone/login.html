@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <img src="./img/nlogo.png" width="250px">
+        </div>
+    </nav>
+    <section class="section">
+        <div class="form-box">
+          <div class="form-value">
+            <form action="">
+            <br><br><br>
+            <h2 class="oturum">Oturum Aç</h2>
+            <br>
+                <input class="input" type="email" placeholder="   E-posta veya telefon numarası" required>
+            <br><br>
+                <input class="input" type="password" placeholder="   Parola" required>
+            <br><br><br>
+              <button id="git" class="btn btn-danger" style="width: 350px; height: 50px;">Oturum Aç</button>
+              <div class="forget" style="color: rgb(87, 87, 87);">
+                 <input type="checkbox"> Beni Hatırla <a class="yardim" href="#" style="color: rgb(87, 87, 87); text-decoration: none;">Yardım ister misin?</a>
+              </div>
+              <br><br>
+              <div class="register" style="color: rgb(87, 87, 87);">
+                <p>Netflix'e katılmak ister misiniz? <a href="#" style="color: white; text-decoration: none;">Şimdi kaydolun</a>.</p>
+              </div>
+              <br>
+              <div style="color: rgb(87, 87, 87); font-size: 13px;">
+                <p>Bu sayfa robot olmadığınızı kanıtlamak için Google<h6 style="font-size: 13px;"> reCAPTCHA tarafından korunuyor.<a href="#" style="text-decoration: none; font-size: 13px;">Daha fazla öğrenin.</a></h6></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <br><br><br><br>
+      <header class="header">
+        <div class="container-h">
+          <div><br>
+             <div style="color: rgb(65, 65, 65);">Sorularınız mı var? <a class="head" href="#">0850-390-7444</a> numaralı telefonu arayın</div>
+             <br>
+             <div class="row">
+                 <div class="col-md-3">
+                 <li><a class="head" href="https://help.netflix.com/support/412">SSS</a></li>
+                 <li><a class="head" href="/youraccount">Çerez Tercihleri</a></li>
+                 </div>
+                 <div class="col-md-3">
+                 <li><a class="head" href="https://help.netflix.com/legal/termsofuse">Yardım Merkezi</a></li>
+                 <li><a class="head" href="#">Kurumsal Bilgiler</a></li>
+                 </div>
+                 <div class="col-md-3">
+                 <li><a class="head" href="https://help.netflix.com">Kullanım Koşulları</a></li>
+                 </div>
+                 <div class="col-md-3">
+                 <li><a class="head" href="https://help.netflix.com/legal/privacy">Gizlilik</a></li>
+                 </div>
+             </div>
+             <br>
+             <div class="dropdown">
+              <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-globe"></i>
+                Türkçe
+              </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Türkçe</a></li>
+                  <li><a class="dropdown-item" href="#">İngilizce</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <script>
+        document.querySelector("#git").onclick=function()
+        {
+          window.location.href="kisi.html"
+        }
+      </script>
+</body>
+</html>
